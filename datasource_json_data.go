@@ -20,6 +20,7 @@ type JSONData struct {
 	TLSAuthWithCACert      bool   `json:"tlsAuthWithCACert,omitempty"`
 	TLSConfigurationMethod string `json:"tlsConfigurationMethod,omitempty"`
 	TLSSkipVerify          bool   `json:"tlsSkipVerify,omitempty"`
+	OAuthPassThru          bool   `json:"oauthPassThru,omitempty"`
 
 	// Used by Athena
 	Catalog        string `json:"catalog,omitempty"`
